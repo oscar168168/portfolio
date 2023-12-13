@@ -1,0 +1,924 @@
+.saas-landing-page {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    background-color: var(--white);
+  }
+  
+  .saas-landing-page .navbar {
+    display: flex;
+    flex-direction: column;
+    width: 1280px;
+    align-items: flex-start;
+    padding: 24px 0px;
+    position: relative;
+    flex: 0 0 auto;
+  }
+  
+  .saas-landing-page .div {
+    display: flex;
+    align-items: center;
+    gap: 32px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+  }
+  
+  .saas-landing-page .logo {
+    display: inline-flex;
+    align-items: center;
+    gap: 12px;
+    position: relative;
+    flex: 0 0 auto;
+  }
+  
+  .saas-landing-page .text-wrapper {
+    position: relative;
+    width: fit-content;
+    margin-top: -1px;
+    font-family: var(--text-2xl-font-semibold-font-family);
+    font-weight: var(--text-2xl-font-semibold-font-weight);
+    color: var(--gray-900);
+    font-size: var(--text-2xl-font-semibold-font-size);
+    letter-spacing: var(--text-2xl-font-semibold-letter-spacing);
+    line-height: var(--text-2xl-font-semibold-line-height);
+    white-space: nowrap;
+    font-style: var(--text-2xl-font-semibold-font-style);
+  }
+  
+  .saas-landing-page .nav-links {
+    display: flex;
+    align-items: center;
+    gap: 32px;
+    position: relative;
+    flex: 1;
+    flex-grow: 1;
+  }
+  
+  .saas-landing-page .link {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    position: relative;
+    flex: 0 0 auto;
+  }
+  
+  .saas-landing-page .text {
+    position: relative;
+    width: fit-content;
+    margin-top: -1px;
+    font-family: var(--text-base-font-medium-font-family);
+    font-weight: var(--text-base-font-medium-font-weight);
+    color: var(--gray-900);
+    font-size: var(--text-base-font-medium-font-size);
+    text-align: center;
+    letter-spacing: var(--text-base-font-medium-letter-spacing);
+    line-height: var(--text-base-font-medium-line-height);
+    white-space: nowrap;
+    font-style: var(--text-base-font-medium-font-style);
+  }
+  
+  .saas-landing-page .CTA {
+    display: inline-flex;
+    align-items: center;
+    gap: 16px;
+    position: relative;
+    flex: 0 0 auto;
+    all: unset;
+    box-sizing: border-box;
+  }
+  
+  .saas-landing-page .button {
+    padding: 8px 12px;
+    background-color: var(--purple-600);
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    flex: 0 0 auto;
+    border-radius: 8px;
+    overflow: hidden;
+    all: unset;
+    box-sizing: border-box;
+  }
+  
+  .saas-landing-page .text-2 {
+    margin-top: -1px;
+    color: var(--white);
+    font-size: 14px;
+    line-height: 21px;
+    position: relative;
+    width: fit-content;
+    font-family: "Inter-Medium", Helvetica;
+    font-weight: 500;
+    letter-spacing: 0;
+    white-space: nowrap;
+  }
+  
+  .saas-landing-page .hero {
+    display: flex;
+    flex-direction: column;
+    width: 1440px;
+    align-items: flex-start;
+    justify-content: center;
+    position: relative;
+    flex: 0 0 auto;
+    background-color: var(--white);
+  }
+  
+  .saas-landing-page .container {
+    display: flex;
+    flex-direction: column;
+    width: 1440px;
+    align-items: center;
+    padding: 64px 0px;
+    position: relative;
+    flex: 0 0 auto;
+  }
+  
+  .saas-landing-page .content {
+    width: 1280px;
+    justify-content: flex-end;
+    gap: 96px;
+    flex: 0 0 auto;
+    display: flex;
+    align-items: center;
+    position: relative;
+  }
+  
+  .saas-landing-page .left-content {
+    gap: 40px;
+    flex: 1;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    position: relative;
+  }
+  
+  .saas-landing-page .div-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+  }
+  
+  .saas-landing-page .heading {
+    position: relative;
+    align-self: stretch;
+    margin-top: -1px;
+    font-family: var(--leading-none-text-6xl-font-black-font-family);
+    font-weight: var(--leading-none-text-6xl-font-black-font-weight);
+    color: var(--gray-900);
+    font-size: var(--leading-none-text-6xl-font-black-font-size);
+    letter-spacing: var(--leading-none-text-6xl-font-black-letter-spacing);
+    line-height: var(--leading-none-text-6xl-font-black-line-height);
+    font-style: var(--leading-none-text-6xl-font-black-font-style);
+  }
+  
+  .saas-landing-page .supporting-text {
+    position: relative;
+    align-self: stretch;
+    font-family: var(--text-xl-font-normal-font-family);
+    font-weight: var(--text-xl-font-normal-font-weight);
+    color: var(--gray-500);
+    font-size: var(--text-xl-font-normal-font-size);
+    letter-spacing: var(--text-xl-font-normal-letter-spacing);
+    line-height: var(--text-xl-font-normal-line-height);
+    font-style: var(--text-xl-font-normal-font-style);
+  }
+  
+  .saas-landing-page .input-helper-text {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+    position: relative;
+    flex: 0 0 auto;
+  }
+  
+  .saas-landing-page .buttons {
+    display: inline-flex;
+    align-items: flex-start;
+    gap: 16px;
+    position: relative;
+    flex: 0 0 auto;
+  }
+  
+  .saas-landing-page .div-wrapper {
+    height: 48px;
+    padding: 12px 20px;
+    background-color: var(--purple-600);
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    flex: 0 0 auto;
+    border-radius: 8px;
+    overflow: hidden;
+    all: unset;
+    box-sizing: border-box;
+  }
+  
+  .saas-landing-page .text-3 {
+    margin-top: -1px;
+    color: var(--white);
+    font-size: var(--text-base-font-medium-font-size);
+    line-height: var(--text-base-font-medium-line-height);
+    position: relative;
+    width: fit-content;
+    font-family: var(--text-base-font-medium-font-family);
+    font-weight: var(--text-base-font-medium-font-weight);
+    letter-spacing: var(--text-base-font-medium-letter-spacing);
+    white-space: nowrap;
+    font-style: var(--text-base-font-medium-font-style);
+  }
+  
+  .saas-landing-page .button-2 {
+    height: 48px;
+    padding: 12px 20px;
+    border: 1px solid;
+    border-color: var(--gray-200);
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    flex: 0 0 auto;
+    border-radius: 8px;
+    overflow: hidden;
+  }
+  
+  .saas-landing-page .p {
+    margin-top: -1px;
+    color: var(--gray-800);
+    font-size: var(--text-base-font-medium-font-size);
+    line-height: var(--text-base-font-medium-line-height);
+    position: relative;
+    width: fit-content;
+    font-family: var(--text-base-font-medium-font-family);
+    font-weight: var(--text-base-font-medium-font-weight);
+    letter-spacing: var(--text-base-font-medium-letter-spacing);
+    white-space: nowrap;
+    font-style: var(--text-base-font-medium-font-style);
+  }
+  
+  .saas-landing-page .frame {
+    position: relative;
+    width: 448px;
+    height: 416px;
+    background-color: #9e8a8a;
+    border-radius: 24px;
+    overflow: hidden;
+  }
+  
+  .saas-landing-page .tiny-graphic {
+    position: absolute;
+    width: 448px;
+    height: 416px;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+  }
+  
+  .saas-landing-page .features {
+    display: flex;
+    flex-direction: column;
+    width: 1440px;
+    align-items: center;
+    gap: 80px;
+    padding: 96px 0px;
+    position: relative;
+    flex: 0 0 auto;
+    background-color: var(--gray-50);
+  }
+  
+  .saas-landing-page .row {
+    width: 1280px;
+    align-items: center;
+    gap: 64px;
+    display: flex;
+    position: relative;
+    flex: 0 0 auto;
+  }
+  
+  .saas-landing-page .left-content-2 {
+    width: 734px;
+    gap: 32px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    position: relative;
+  }
+  
+  .saas-landing-page .div-3 {
+    display: flex;
+    align-items: flex-start;
+    gap: 16px;
+    align-self: stretch;
+    width: 100%;
+    flex-direction: column;
+    position: relative;
+    flex: 0 0 auto;
+  }
+  
+  .saas-landing-page .heading-2 {
+    position: relative;
+    align-self: stretch;
+    margin-top: -1px;
+    font-family: var(--leading-tight-text-4xl-font-extrabold-font-family);
+    font-weight: var(--leading-tight-text-4xl-font-extrabold-font-weight);
+    color: var(--gray-900);
+    font-size: var(--leading-tight-text-4xl-font-extrabold-font-size);
+    letter-spacing: var(--leading-tight-text-4xl-font-extrabold-letter-spacing);
+    line-height: var(--leading-tight-text-4xl-font-extrabold-line-height);
+    font-style: var(--leading-tight-text-4xl-font-extrabold-font-style);
+  }
+  
+  .saas-landing-page .features-2 {
+    flex-direction: column;
+    align-items: flex-start;
+    align-self: stretch;
+    width: 100%;
+    display: flex;
+    position: relative;
+    flex: 0 0 auto;
+  }
+  
+  .saas-landing-page .separator {
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    height: 1px;
+    background-color: var(--gray-200);
+  }
+  
+  .saas-landing-page .list {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+    padding: 32px 0px 0px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+  }
+  
+  .saas-landing-page .frame-2 {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    position: relative;
+    flex: 0 0 auto;
+  }
+  
+  .saas-landing-page .feature {
+    display: flex;
+    width: 160px;
+    align-items: center;
+    gap: 8px;
+    position: relative;
+    flex: 0 0 auto;
+  }
+  
+  .saas-landing-page .img {
+    position: relative;
+    width: 20px;
+    height: 20px;
+  }
+  
+  .saas-landing-page .title-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 6px;
+    position: relative;
+    flex: 1;
+    flex-grow: 1;
+  }
+  
+  .saas-landing-page .title {
+    position: relative;
+    align-self: stretch;
+    margin-top: -1px;
+    font-family: var(--text-base-font-medium-font-family);
+    font-weight: var(--text-base-font-medium-font-weight);
+    color: var(--gray-900);
+    font-size: var(--text-base-font-medium-font-size);
+    letter-spacing: var(--text-base-font-medium-letter-spacing);
+    line-height: var(--text-base-font-medium-line-height);
+    font-style: var(--text-base-font-medium-font-style);
+  }
+  
+  .saas-landing-page .frame-3 {
+    position: relative;
+    width: 365px;
+    height: 24px;
+    background-color: #7e3af20d;
+    border-radius: 24px;
+    overflow: hidden;
+  }
+  
+  .saas-landing-page .rectangle {
+    position: absolute;
+    width: 212px;
+    height: 24px;
+    top: 0;
+    left: 0;
+    background-color: #7e3af2;
+    border-radius: 24px;
+  }
+  
+  .saas-landing-page .title-2 {
+    position: absolute;
+    width: 145px;
+    top: -2px;
+    left: 220px;
+    font-family: var(--text-base-font-medium-font-family);
+    font-weight: var(--text-base-font-medium-font-weight);
+    font-size: var(--text-base-font-medium-font-size);
+    line-height: var(--text-base-font-medium-line-height);
+    color: var(--gray-900);
+    letter-spacing: var(--text-base-font-medium-letter-spacing);
+    font-style: var(--text-base-font-medium-font-style);
+  }
+  
+  .saas-landing-page .dec-d-bb {
+    position: relative;
+    width: 482px;
+    height: 675px;
+    object-fit: cover;
+  }
+  
+  .saas-landing-page .heading-desc-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 32px;
+    position: relative;
+    flex: 1;
+    flex-grow: 1;
+  }
+  
+  .saas-landing-page .heading-desc {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 32px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+  }
+  
+  .saas-landing-page .title-3 {
+    position: relative;
+    align-self: stretch;
+    font-family: var(--leading-tight-text-2xl-font-bold-font-family);
+    font-weight: var(--leading-tight-text-2xl-font-bold-font-weight);
+    font-size: var(--leading-tight-text-2xl-font-bold-font-size);
+    line-height: var(--leading-tight-text-2xl-font-bold-line-height);
+    color: var(--gray-900);
+    letter-spacing: var(--leading-tight-text-2xl-font-bold-letter-spacing);
+    font-style: var(--leading-tight-text-2xl-font-bold-font-style);
+  }
+  
+  .saas-landing-page .text-4 {
+    color: var(--purple-600);
+    font-size: var(--leading-none-text-lg-font-medium-font-size);
+    line-height: var(--leading-none-text-lg-font-medium-line-height);
+    position: relative;
+    width: fit-content;
+    font-family: var(--leading-none-text-lg-font-medium-font-family);
+    font-weight: var(--leading-none-text-lg-font-medium-font-weight);
+    letter-spacing: var(--leading-none-text-lg-font-medium-letter-spacing);
+    white-space: nowrap;
+    font-style: var(--leading-none-text-lg-font-medium-font-style);
+  }
+  
+  .saas-landing-page .frame-4 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+    gap: 16px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+  }
+  
+  .saas-landing-page .title-4 {
+    position: relative;
+    align-self: stretch;
+    margin-top: -1px;
+    font-family: var(--text-base-font-medium-font-family);
+    font-weight: var(--text-base-font-medium-font-weight);
+    font-size: var(--text-base-font-medium-font-size);
+    text-align: right;
+    line-height: var(--text-base-font-medium-line-height);
+    color: var(--gray-900);
+    letter-spacing: var(--text-base-font-medium-letter-spacing);
+    font-style: var(--text-base-font-medium-font-style);
+  }
+  
+  .saas-landing-page .title-5 {
+    position: relative;
+    align-self: stretch;
+    font-family: var(--leading-tight-text-2xl-font-bold-font-family);
+    font-weight: var(--leading-tight-text-2xl-font-bold-font-weight);
+    font-size: var(--leading-tight-text-2xl-font-bold-font-size);
+    text-align: right;
+    line-height: var(--leading-tight-text-2xl-font-bold-line-height);
+    color: var(--gray-900);
+    letter-spacing: var(--leading-tight-text-2xl-font-bold-letter-spacing);
+    font-style: var(--leading-tight-text-2xl-font-bold-font-style);
+  }
+  
+  .saas-landing-page .supporting-text-2 {
+    align-self: stretch;
+    text-align: right;
+    position: relative;
+    font-family: var(--text-xl-font-normal-font-family);
+    font-weight: var(--text-xl-font-normal-font-weight);
+    color: var(--gray-500);
+    font-size: var(--text-xl-font-normal-font-size);
+    letter-spacing: var(--text-xl-font-normal-letter-spacing);
+    line-height: var(--text-xl-font-normal-line-height);
+    font-style: var(--text-xl-font-normal-font-style);
+  }
+  
+  .saas-landing-page .left-content-wrapper {
+    display: flex;
+    width: 1440px;
+    align-items: center;
+    gap: 64px;
+    padding: 48px 80px;
+    position: relative;
+    flex: 0 0 auto;
+    background-color: #ffffff;
+  }
+  
+  .saas-landing-page .pricing {
+    display: flex;
+    flex-direction: column;
+    width: 1440px;
+    align-items: center;
+    gap: 10px;
+    padding: 96px 0px;
+    position: relative;
+    flex: 0 0 auto;
+    background-color: var(--white);
+  }
+  
+  .saas-landing-page .container-wrapper {
+    flex-direction: column;
+    width: 1280px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    flex: 0 0 auto;
+  }
+  
+  .saas-landing-page .container-2 {
+    flex-direction: column;
+    gap: 48px;
+    align-self: stretch;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    position: relative;
+    flex: 0 0 auto;
+  }
+  
+  .saas-landing-page .heading-desc-2 {
+    display: flex;
+    align-items: center;
+    gap: 96px;
+    align-self: stretch;
+    width: 100%;
+    flex-direction: column;
+    position: relative;
+    flex: 0 0 auto;
+  }
+  
+  .saas-landing-page .heading-desc-3 {
+    display: inline-flex;
+    align-items: center;
+    gap: 16px;
+    margin-left: -40px;
+    margin-right: -40px;
+    flex-direction: column;
+    position: relative;
+    flex: 0 0 auto;
+  }
+  
+  .saas-landing-page .heading-3 {
+    position: relative;
+    width: 1360px;
+    margin-top: -1px;
+    font-family: var(--leading-tight-text-4xl-font-extrabold-font-family);
+    font-weight: var(--leading-tight-text-4xl-font-extrabold-font-weight);
+    color: var(--gray-900);
+    font-size: var(--leading-tight-text-4xl-font-extrabold-font-size);
+    text-align: center;
+    letter-spacing: var(--leading-tight-text-4xl-font-extrabold-letter-spacing);
+    line-height: var(--leading-tight-text-4xl-font-extrabold-line-height);
+    font-style: var(--leading-tight-text-4xl-font-extrabold-font-style);
+  }
+  
+  .saas-landing-page .supporting-text-3 {
+    width: 768px;
+    text-align: center;
+    position: relative;
+    font-family: var(--text-xl-font-normal-font-family);
+    font-weight: var(--text-xl-font-normal-font-weight);
+    color: var(--gray-500);
+    font-size: var(--text-xl-font-normal-font-size);
+    letter-spacing: var(--text-xl-font-normal-letter-spacing);
+    line-height: var(--text-xl-font-normal-line-height);
+    font-style: var(--text-xl-font-normal-font-style);
+  }
+  
+  .saas-landing-page .pricing-cards {
+    align-items: center;
+    gap: 40px;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+    display: flex;
+    position: relative;
+  }
+  
+  .saas-landing-page .pricing-plan {
+    display: flex;
+    align-items: flex-start;
+    padding: 32px;
+    position: relative;
+    flex: 1;
+    flex-grow: 1;
+    background-color: var(--white);
+    border-radius: 8px;
+    overflow: hidden;
+    border: 1px solid;
+    border-color: var(--gray-200);
+    box-shadow: var(--shadow-md);
+  }
+  
+  .saas-landing-page .content-2 {
+    flex-direction: column;
+    gap: 32px;
+    flex: 1;
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+    position: relative;
+  }
+  
+  .saas-landing-page .pricing-card-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+  }
+  
+  .saas-landing-page .text-wrapper-2 {
+    position: relative;
+    align-self: stretch;
+    margin-top: -1px;
+    font-family: var(--text-2xl-font-semibold-font-family);
+    font-weight: var(--text-2xl-font-semibold-font-weight);
+    color: var(--gray-900);
+    font-size: var(--text-2xl-font-semibold-font-size);
+    text-align: center;
+    letter-spacing: var(--text-2xl-font-semibold-letter-spacing);
+    line-height: var(--text-2xl-font-semibold-line-height);
+    font-style: var(--text-2xl-font-semibold-font-style);
+  }
+  
+  .saas-landing-page .desc {
+    position: relative;
+    align-self: stretch;
+    font-family: var(--text-lg-font-normal-font-family);
+    font-weight: var(--text-lg-font-normal-font-weight);
+    color: var(--gray-500);
+    font-size: var(--text-lg-font-normal-font-size);
+    text-align: center;
+    letter-spacing: var(--text-lg-font-normal-letter-spacing);
+    line-height: var(--text-lg-font-normal-line-height);
+    font-style: var(--text-lg-font-normal-font-style);
+  }
+  
+  .saas-landing-page .price {
+    display: inline-flex;
+    align-items: flex-end;
+    gap: 10px;
+    position: relative;
+    flex: 0 0 auto;
+  }
+  
+  .saas-landing-page .text-wrapper-3 {
+    position: relative;
+    width: fit-content;
+    margin-top: -1px;
+    font-family: var(--leading-none-text-5xl-font-extrabold-font-family);
+    font-weight: var(--leading-none-text-5xl-font-extrabold-font-weight);
+    color: var(--gray-900);
+    font-size: var(--leading-none-text-5xl-font-extrabold-font-size);
+    letter-spacing: var(--leading-none-text-5xl-font-extrabold-letter-spacing);
+    line-height: var(--leading-none-text-5xl-font-extrabold-line-height);
+    white-space: nowrap;
+    font-style: var(--leading-none-text-5xl-font-extrabold-font-style);
+  }
+  
+  .saas-landing-page .desc-2 {
+    position: relative;
+    align-self: stretch;
+    width: 62px;
+    margin-top: -1px;
+    font-family: var(--text-lg-font-medium-font-family);
+    font-weight: var(--text-lg-font-medium-font-weight);
+    color: var(--gray-500);
+    font-size: var(--text-lg-font-medium-font-size);
+    text-align: center;
+    letter-spacing: var(--text-lg-font-medium-letter-spacing);
+    line-height: var(--text-lg-font-medium-line-height);
+    font-style: var(--text-lg-font-medium-font-style);
+  }
+  
+  .saas-landing-page .item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 2px 0px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+  }
+  
+  .saas-landing-page .feature-label-goes-h {
+    position: relative;
+    flex: 1;
+    margin-top: -1px;
+    font-family: var(--text-base-font-normal-font-family);
+    font-weight: var(--text-base-font-normal-font-weight);
+    color: var(--gray-900);
+    font-size: var(--text-base-font-normal-font-size);
+    letter-spacing: var(--text-base-font-normal-letter-spacing);
+    line-height: var(--text-base-font-normal-line-height);
+    font-style: var(--text-base-font-normal-font-style);
+  }
+  
+  .saas-landing-page .feature-label-goes-h-2 {
+    position: relative;
+    flex: 1;
+    margin-top: -1px;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: var(--gray-900);
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: 24px;
+  }
+  
+  .saas-landing-page .span {
+    font-family: var(--text-base-font-normal-font-family);
+    font-weight: var(--text-base-font-normal-font-weight);
+    color: #111928;
+    font-size: var(--text-base-font-normal-font-size);
+    letter-spacing: var(--text-base-font-normal-letter-spacing);
+    line-height: var(--text-base-font-normal-line-height);
+    font-style: var(--text-base-font-normal-font-style);
+  }
+  
+  .saas-landing-page .text-wrapper-4 {
+    font-family: var(--text-base-font-semibold-font-family);
+    font-weight: var(--text-base-font-semibold-font-weight);
+    font-style: var(--text-base-font-semibold-font-style);
+    letter-spacing: var(--text-base-font-semibold-letter-spacing);
+    line-height: var(--text-base-font-semibold-line-height);
+    font-size: var(--text-base-font-semibold-font-size);
+  }
+  
+  .saas-landing-page .button-3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 20px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+    background-color: var(--purple-600);
+    border-radius: 8px;
+    overflow: hidden;
+    all: unset;
+    box-sizing: border-box;
+  }
+  
+  .button-3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 20px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+    background-color: var(--purple-600);
+    border-radius: 8px;
+    overflow: hidden;
+    all: unset;
+    box-sizing: border-box;
+  }
+  .saas-landing-page .content-wrapper {
+    align-items: flex-start;
+    justify-content: center;
+    padding: 32px;
+    flex: 1;
+    flex-grow: 1;
+    background-color: var(--white);
+    border-radius: 8px;
+    overflow: hidden;
+    border: 1px solid;
+    border-color: var(--gray-200);
+    box-shadow: var(--shadow-md);
+    display: flex;
+    position: relative;
+  }
+  
+  .saas-landing-page .CTA-2 {
+    display: flex;
+    flex-direction: column;
+    width: 1440px;
+    align-items: center;
+    gap: 10px;
+    padding: 96px 0px;
+    position: relative;
+    flex: 0 0 auto;
+    background-color: var(--gray-50);
+  }
+  
+  .saas-landing-page .container-3 {
+    width: 1280px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    position: relative;
+    flex: 0 0 auto;
+  }
+  
+  .saas-landing-page .content-3 {
+    flex-direction: column;
+    width: 640px;
+    gap: 24px;
+    display: flex;
+    align-items: center;
+    position: relative;
+  }
+  
+  .saas-landing-page .heading-4 {
+    position: relative;
+    align-self: stretch;
+    margin-top: -1px;
+    font-family: var(--leading-tight-text-4xl-font-extrabold-font-family);
+    font-weight: var(--leading-tight-text-4xl-font-extrabold-font-weight);
+    color: var(--gray-900);
+    font-size: var(--leading-tight-text-4xl-font-extrabold-font-size);
+    text-align: center;
+    letter-spacing: var(--leading-tight-text-4xl-font-extrabold-letter-spacing);
+    line-height: var(--leading-tight-text-4xl-font-extrabold-line-height);
+    font-style: var(--leading-tight-text-4xl-font-extrabold-font-style);
+  }
+  
+  .saas-landing-page .supporting-text-4 {
+    align-self: stretch;
+    text-align: center;
+    position: relative;
+    font-family: var(--text-xl-font-normal-font-family);
+    font-weight: var(--text-xl-font-normal-font-weight);
+    color: var(--gray-500);
+    font-size: var(--text-xl-font-normal-font-size);
+    letter-spacing: var(--text-xl-font-normal-letter-spacing);
+    line-height: var(--text-xl-font-normal-line-height);
+    font-style: var(--text-xl-font-normal-font-style);
+  }
+  
+  .saas-landing-page .frame-5 {
+    position: relative;
+    flex: 0 0 auto;
+  }
+  
