@@ -13,7 +13,7 @@
     />
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary sticky-top shadow">
       <div class="container">
         <a class="navbar-brand" href="#">Rat Raksmey</a>
         <button
@@ -33,41 +33,40 @@
               <a class="nav-link active" aria-current="page" href="#">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">About me</a>
+              <a class="nav-link" href="#about">About me</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Education</a>
+              <a class="nav-link" href="#edu">Education</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Experience</a>
+              <a class="nav-link" href="#exp">Experience</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Portfolio</a>
+              <a class="nav-link" href="#port">Portfolio</a>
             </li>
           </ul>
-          <a href="" class="button-primary">GET START</a>
+          <a href="#cont" class="button-primary">CONTACT</a>
         </div>
       </div>
     </nav>
     <!-- HEADER -->
     <div class="container" style="height: 90vh">
       <div class="row justify-content-between align-items-center mt-5">
-        <div class="col-md-6">
+        <div class="col-md-6 mt-5">
           <h1 class="pb-2">Hey! I’m Raksmey <br />A UX/UI Designer.</h1>
           <p class="pb-2 txt-secondary">
             I specialize in crafting intuitive and visually appealing user
             experiences through UX/UI design.
           </p>
           <div class="d-flex">
-            <a href="" class="button-primary me-3">CONTACT ME</a>
-            <a href="" class="button-secondary">CHECK PORTFOLIO</a>
+            <a href="cont" class="button-primary me-3">CONTACT ME</a>
+            <a href="port" class="button-secondary">CHECK PORTFOLIO</a>
           </div>
         </div>
         <div class="col-md-6 mt-5">
           <img
-            class="img img-fluid objectFit-content"
+            class="img img-fluid"
             src="images/header@4x.png"
-            style="height: 500px"
             alt=""
           />
         </div>
@@ -76,7 +75,7 @@
     <!-- HEADER -->
 
     <!-- ABOUT -->
-    <div class="container mt-5">
+    <div id="about" class="container mt-5">
       <div class="row justify-content-between align-items-center">
         <div class="col-md-6 my-5">
           <img
@@ -155,7 +154,7 @@
     <!-- ABOUT -->
 
     <!-- EDUCATION -->
-    <div class="container-fluid bg-body-tertiary">
+    <div id="edu" class="container-fluid bg-body-tertiary">
       <div class="container mt-5 pt-5">
         <p class="txt-primary">Get To Know More</p>
 
@@ -213,7 +212,7 @@
     <!-- EDUCATION -->
 
     <!-- EXPERIENCE -->
-    <div class="container-fluid">
+    <div id="exp" class="container-fluid">
       <div class="container mt-5 text-end">
         <p class="txt-primary">Get To Know More</p>
         <h1>My Education</h1><br>
@@ -269,7 +268,79 @@
       </div>
     </div>
     <!-- EXPERIENCE -->
+
+    <!-- PORTFOLIO -->
+    <div id="port" class="container mt-5">
+      <div class="text-center">
+        <p class="txt-primary">Here's What I've Done</p>
+        <h1>My Profolio</h1><br>
+      </div>
+    <div class="row">
+      <div class="col-sm-4 mb-3 mb-sm-0">
+        <div class="card">
+          <div class="card-body text-center">
+            <img src="images/port-1.jpg" class="img card-img-top">
+            <h5 class="card-title py-2">PROMETEUS WEBSITE</h5>
+            <a href="#" class="button-primary">VIEW DETAIL</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-4 mb-3 mb-sm-0">
+        <div class="card">
+          <div class="card-body text-center">
+            <img src="images/port2.jpg" class="img card-img-top">
+            <h5 class="card-title py-2">PROMETEUS WEBSITE</h5>
+            <a href="#" class="button-primary">VIEW DETAIL</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-4 mb-3 mb-sm-0">
+        <div class="card">
+          <div class="card-body text-center">
+            <img src="images/port3.jpg" class="img card-img-top">
+            <h5 class="card-title py-2">PROMETEUS WEBSITE</h5>
+            <a href="#" class="button-primary">VIEW DETAIL</a>
+          </div>
+        </div>
+      </div>
+      
+      
+     
+    </div><div class="row mt-4">
+      <div class="col-sm-4 mb-3 mb-sm-0">
+        <div class="card">
+          <div class="card-body text-center">
+            <img src="images/port4.jpg" class="img card-img-top">
+            <h5 class="card-title py-2">PROMETEUS WEBSITE</h5>
+            <a href="#" class="button-primary">VIEW DETAIL</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-4 mb-3 mb-sm-0">
+        <div class="card">
+          <div class="card-body text-center">
+            <img src="images/port5.jpg" class="img card-img-top">
+            <h5 class="card-title py-2">PROMETEUS WEBSITE</h5>
+            <a href="#" class="button-primary">VIEW DETAIL</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-4 mb-3 mb-sm-0">
+        <div class="card">
+          <div class="card-body text-center">
+            <img src="images/port6.jpg" class="img card-img-top">
+            <h5 class="card-title py-2">PROMETEUS WEBSITE</h5>
+            <a href="#" class="button-primary">VIEW DETAIL</a>
+          </div>
+        </div>
+      </div>
+      
+      
+     
+    </div></div>
+    <!-- PORTFOLIO -->
     <footer
+    id="cont"
       class="footer container-fluid bg-body-tertiary mt-5 py-5 text-center"
     >
       <h2 class="mb-4">Rat Raksmey</h2>
